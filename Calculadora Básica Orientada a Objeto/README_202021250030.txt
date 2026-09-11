@@ -1,0 +1,52 @@
+README_202021250030
+
+Projeto: Calculadora Orientada a Objetos em Java
+Matrícula SUAP: 202021250030
+
+1. Versão do compilador Java utilizada
+javac 21.0.11
+
+Versão do Java utilizada para execução:
+openjdk version "21.0.11" 2026-04-21
+
+2. IDE e respectiva versão
+Visual Studio Code (VS Code) — versão a ser informada conforme a instalação utilizada.
+O projeto também pode ser compilado e executado diretamente pelo terminal shell com o JDK instalado.
+
+3. Sistema Operacional e respectiva versão
+Ambiente de geração: Linux (ambiente de execução deste arquivo).
+Para a entrega acadêmica, caso necessário, informe a versão do sistema operacional do computador utilizado.
+
+4. Tipo da biblioteca criada
+.jar
+
+Arquivo: Caculadora_202021250030.jar
+
+5. Descrição dos métodos da classe Caculadora_202021250030
+
+- public double soma(double a, double b)
+  Recebe dois valores do tipo double e retorna a soma dos dois valores.
+
+- public double multiplicacao(double a, double b)
+  Recebe dois valores do tipo double e retorna o produto dos dois valores.
+
+- public double subtracao(double a, double b)
+  Recebe dois valores do tipo double e retorna a diferença entre o primeiro e o segundo valor.
+
+- public double divisao(double a, double b)
+  Recebe dois valores do tipo double e retorna a divisão do primeiro pelo segundo.
+  Caso o segundo valor seja zero, o método lança ArithmeticException para impedir divisão por zero.
+
+6. Classes
+- Caculadora_202021250030: biblioteca que implementa as quatro operações matemáticas básicas.
+- Cliente_202021250030: classe cliente que utiliza os métodos públicos da calculadora.
+  O método static public void main(String[] args) pertence a esta classe.
+
+7. Execução
+Para executar o cliente utilizando a biblioteca:
+
+javac -cp Caculadora_202021250030.jar Cliente_202021250030.java
+java -cp Caculadora_202021250030.jar:. Cliente_202021250030
+
+Observação:
+Os nomes dos arquivos foram identificados com a matrícula SUAP 202021250030, conforme solicitado no enunciado.
